@@ -4,7 +4,7 @@ services:
     container_name: test-con
     image: laazyry2/node-test-docker
     ports:
-      - "4000:4000"
+      - "80:80"
     env_file:
       - ./.env
     depends_on:
